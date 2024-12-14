@@ -1,0 +1,14 @@
+0xFF00  안누름
+0xFE00   : SW0
+0xFD00    SW1  : 
+여기서부터 조심    >> 이유     1111 1111
+0xFB00     SW2                    |  0000 1000 (LED 3 = 왼쪽부터 4번째 버튼)
+0xF700     SW3                       1111 0111 = F7
+0xEF00     SW4                 
+0xDF00    SW5    		
+0xBF00     SW6
+0x7F00     SW7
+
+
+switch(KEY_Scan())
+  case 
